@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #43766c;
+  color: #f8fae5;
+  font-family: "valorax";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+  /* overflow: hidden; */
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  padding: 30px 40px;
+  border: none;
+}
+
+img {
+  height: 350px;
+  width: 400px;
+}

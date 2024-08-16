@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #43766c;
+  color: #f8fae5;
+  font-family: "valorax";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  overflow: hidden;
+}
+
+.screen {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.screen h2 {
+  font-size: 100px;
+}
+.screen button {
+  padding: 20px 30px;
+  border: 2px solid #f8fae5;
+}
+
+button:hover {
+  transform: scale(0.9);
+  background-color: #f8fae5;
+  color: #43766c;
+}
+
+.screen h3 {
+  font-size: 35px;
+}
+
+#elem-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  margin-top: 25px;
+}
+
+.elem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #f8fae5;
+  height: 200px;
+  width: 200px;
+  /* z-index: 99; */
+  cursor: grab;
+}
+
+.elem:hover {
+  transform: scale(0.9);
+  background-color: #f8fae5;
+  color: #43766c;
+}
+.elem:active {
+  cursor: grabbing;
+}
+.elem img {
+  height: 140px;
+  /* width: 100px; */
+  margin-top: 20px;
+}
+
+.elem h4 {
+  font-size: 20px;
+  /* align-items: center; */
+}
+
+/* #venom {
+  z-index: 9;
+} */
+
+.score {
+  height: 10%;
+  width: 100%;
+  /* background-color: pink; */
+  border-bottom: 2px solid #f8fae5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.playground {
+  /* margin-top: 5px; */
+  /* margin-bottom: 5px; */
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playground img {
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100px;
+}
